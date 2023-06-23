@@ -1,0 +1,89 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #d3d6db;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 2vh;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 5vw;
+  background-color: #3a4750;
+  color: #d3d6db;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 5vw;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.info {
+  border: 2px solid #3a4750;
+  border-radius: 10px;
+  width: 100%;
+  height: 2em;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+.board {
+  border: 2px solid #3a4750;
+  border-radius: 10px;
+  width: 100%;
+  height: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board h4 {
+  margin-bottom: 20px;
+}
+
+#computer h4 {
+  margin-top: 20px;
+}
+
+.board button {
+  margin: 10px;
+  font-size: 3em;
+  cursor: pointer;
+  padding: 2px 10px 10px 10px;
+  background-color: #303841;
+  border: 3px solid #303841;
+  border-radius: 10px;
+}
+
+.board button:hover {
+  background-color: #be3144;
+  border: 3px solid #303841;
+  transition: 0.2s;
+}
+
+.board button:active {
+  background-color: #303841;
+  border: 3px solid #303841;
+  transition: 0.2s;
+}
